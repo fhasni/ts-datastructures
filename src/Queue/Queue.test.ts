@@ -1,6 +1,6 @@
 import { Queue } from "./Queue";
-describe("Node", () => {
-  it("Initialize stack", () => {
+describe("Queue", () => {
+  it("Initialize queue", () => {
     const queue = new Queue();
     expect(queue.isEmpty()).toBeTruthy();
     queue.enqueue("a");

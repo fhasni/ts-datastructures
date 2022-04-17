@@ -1,5 +1,5 @@
 import { Stack } from "./Stack";
-describe("Node", () => {
+describe("Stack", () => {
   it("Initialize stack", () => {
     const stack = new Stack();
     expect(stack.isEmpty()).toBeTruthy();
